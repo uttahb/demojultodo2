@@ -1,0 +1,25 @@
+{
+  "type": "function",
+  "source": {
+    "https": "https://github.com/uttahb/demojultodo2.git",
+    "ssh": "git@github.com:uttahb/demojultodo2.git",
+    "branch": "block_removeTodo"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "npm run build",
+  "postPull": "npm i",
+  "name": "removeTodo",
+  "supportedAppblockVersions": [
+    "1.0.0"
+  ],
+  "blockId": "mzigywHeGkA7DJIuyVOtz",
+  "isPublic": false,
+  "repoType": "mono",
+  "parentBlockIDs": [
+    "kZFFQI1lYlnsFVKITslLx"
+  ],
+  "version": "0.0.1",
+  "versionId": "sw7gWcxWGJZu7X5fb2lZ4",
+  "variantOf": "sw7gWcxWGJZu7X5fb2lZ4"
+}
