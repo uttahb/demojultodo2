@@ -1,0 +1,22 @@
+{
+  "name": "todoInput",
+  "type": "ui-elements",
+  "source": {
+    "https": "",
+    "ssh": "",
+    "branch": "block_todoInput"
+  },
+  "language": "js",
+  "start": "npx webpack-dev-server",
+  "build": "npx webpack",
+  "postPull": "npm i",
+  "supportedAppblockVersions": [
+    "1.0.0"
+  ],
+  "blockId": "1the35uorocfb5pPfnSDn",
+  "isPublic": false,
+  "repoType": "mono",
+  "parentBlockIDs": [
+    "kZFFQI1lYlnsFVKITslLx"
+  ]
+}
