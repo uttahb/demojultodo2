@@ -1,0 +1,22 @@
+{
+  "name": "todoItem",
+  "type": "ui-elements",
+  "source": {
+    "https": "https://github.com/uttahb/demojultodo2.git",
+    "ssh": "git@github.com:uttahb/demojultodo2.git",
+    "branch": "block_todoItem"
+  },
+  "language": "js",
+  "start": "npx webpack-dev-server",
+  "build": "npx webpack",
+  "postPull": "npm i",
+  "supportedAppblockVersions": [
+    "1.0.0"
+  ],
+  "blockId": "0drBJI_9T_srOKmv9-_qr",
+  "isPublic": false,
+  "repoType": "mono",
+  "parentBlockIDs": [
+    "kZFFQI1lYlnsFVKITslLx"
+  ]
+}
